@@ -98,6 +98,15 @@ ul {
   height: 80vh;
   position: relative;
   background-color: #f2f2f2;
+  background-image: url(./Home-back2.jpg);
+  background-position: center;
+  background-size: 65%;
+}
+
+@media (max-width: 600px) {
+  .home {
+    background-size: cover;
+  }
 }
 
 .home .container {
@@ -173,8 +182,8 @@ ul {
 }
 
 .home .button {
-  background-color: rgb(215 224 241);
-  color: rgb(59, 130, 246);
+  background-color: rgb(179 13 13);
+  color: rgb(246 111 59);
   border: none;
   cursor: pointer;
   border-radius: 8px;
@@ -188,8 +197,8 @@ ul {
   font-size: 20px;
 }
 .home .button:hover {
-  background-color: #3b82f6;
-  box-shadow: 0 0 0 5px #3b83f65f;
+  background-color: #f63b3b;
+  box-shadow: 0 0 0 5px #f63b3b5f;
   color: #fff;
 }
 
