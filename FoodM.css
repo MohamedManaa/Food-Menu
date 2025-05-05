@@ -351,6 +351,15 @@ ul {
   border-radius: 50%;
   margin: 21px;
 }
+@media (max-width: 449px) {
+  .cards .container .card-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
 .cards .container .card-1 .fod-img-2 {
   width: 75%;
   height: 51%;
