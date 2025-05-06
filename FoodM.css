@@ -272,6 +272,7 @@ ul {
 /* start card */
 .cards {
   position: relative;
+  margin-bottom: 50px;
 }
 
 .cards .container {
@@ -427,4 +428,201 @@ ul {
 .cards .container .card-1:hover {
   transform: scale(1.1);
 }
+
+@media (max-width: 449px) {
+  #size-im {
+    width: 45%;
+  }
+}
 /* end card */
+
+/* --------------------------------- */
+
+/* sandwitch */
+.fod-img-sand {
+  width: 75%;
+  height: 51%;
+  background-image: url(./sandwesha-1.jpg);
+  background-position: top center;
+  background-size: cover;
+  border-radius: 50%;
+  margin: 21px;
+}
+.fod-img-sand-2 {
+  width: 75%;
+  height: 51%;
+  background-image: url(./sandwesha-2.jpg);
+  background-position: top center;
+  background-size: cover;
+  border-radius: 50%;
+  margin: 21px;
+}
+.fod-img-sand-3 {
+  width: 75%;
+  height: 51%;
+  background-image: url(./sandwesha-3.jpg);
+  background-position: top center;
+  background-size: cover;
+  border-radius: 50%;
+  margin: 21px;
+}
+.fod-img-sand-4 {
+  width: 75%;
+  height: 51%;
+  background-image: url(./sandwesha-4.jpg);
+  background-position: top center;
+  background-size: cover;
+  border-radius: 50%;
+  margin: 21px;
+}
+.fod-img-sand-5 {
+  width: 75%;
+  height: 51%;
+  background-image: url(./sandwesha-5.jpg);
+  background-position: top center;
+  background-size: cover;
+  border-radius: 50%;
+  margin: 21px;
+}
+.fod-img-sand-6 {
+  width: 75%;
+  height: 51%;
+  background-image: url(./sandwesha-6.jpg);
+  background-position: top center;
+  background-size: cover;
+  border-radius: 50%;
+  margin: 21px;
+}
+.fod-img-sand-7 {
+  width: 75%;
+  height: 51%;
+  background-image: url(./sandwesha-7.jpg);
+  background-position: top center;
+  background-size: cover;
+  border-radius: 50%;
+  margin: 21px;
+}
+.fod-img-sand-8 {
+  width: 75%;
+  height: 51%;
+  background-image: url(./sandwesha-8.jpg);
+  background-position: top center;
+  background-size: cover;
+  border-radius: 50%;
+  margin: 21px;
+}
+
+/* sandwitch */
+
+@media (max-width: 449px) {
+  .img-size {
+    width: 45%;
+  }
+}
+
+/* --------------------------------------------- */
+
+/* start footer */
+.footer {
+  height: 30vh;
+  width: 100%;
+  background-color: black;
+  position: relative;
+}
+
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .foot-cards {
+  position: relative;
+  top: 20px;
+}
+
+.social p {
+  color: white;
+  font-size: 15px;
+  width: 140px;
+  margin-left: 35px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer .foot-cards i {
+  color: rgb(206, 18, 18);
+  margin-right: 20px;
+  font-size: 25px;
+}
+
+.footer .foot-cards span {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.footer .foot-cards p {
+  color: white;
+  font-size: 15px;
+  width: 140px;
+  margin-left: 35px;
+}
+
+@media (max-width: 767px) {
+  .footer {
+    height: 120vh;
+  }
+
+  .footer .container {
+    flex-direction: column;
+  }
+
+  .footer .foot-cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 35px;
+  }
+
+  .footer .foot-cards i {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+
+  .footer .foot-cards span {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .footer .foot-cards p {
+    margin: 0;
+  }
+}
+
+.footer a i {
+  text-decoration: none;
+  transition-duration: 0.5s;
+}
+.footer a i:hover {
+  transform: scale(1.2);
+}
+
+@media (max-width: 767px) {
+  .social p {
+    justify-content: space-between;
+  }
+
+  .social p a {
+    font-size: 10px;
+    margin-right: 20px;
+  }
+
+  .social p a i {
+    font-size: 10px;
+  }
+}
+/* end footer */
