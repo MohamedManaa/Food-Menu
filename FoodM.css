@@ -103,9 +103,11 @@ ul {
   height: 80vh;
   position: relative;
   background-color: #f2f2f2;
-  background-image: url(./Home-back2.jpg);
+  /* background-image: url(./Home-back2.jpg); */
+  background-image: url(./b-h.png);
   background-position: center;
-  background-size: 65%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 @media (max-width: 600px) {
@@ -159,10 +161,10 @@ ul {
   }
 }
 
-.home .home-text {
-  /* position: relative;
-  top: 150px; */
-}
+/* .home .home-text {
+  position: relative;
+  top: 150px;
+} */
 .home h1 {
   font-size: 50px;
   margin: 0;
